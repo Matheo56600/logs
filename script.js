@@ -7,8 +7,8 @@
 //    (visible dans l'URL du Gist : gist.github.com/USER/ID)
 // 3. Renseigne les 3 valeurs ci-dessous.
 const CONFIG = {
-  GIST_UTILISATEUR: "VOTRE-UTILISATEUR",
-  GIST_ID: "VOTRE-ID-DE-GIST",
+  GIST_UTILISATEUR: "Matheo56600",
+  GIST_ID: "635c9f837038f813b46fa30ff7d35081",
   GIST_FICHIER: "logs.json",
   INTERVALLE_MS: 5000,       // frequence de rafraichissement
   SECONDES_HORS_LIGNE: 30,   // au-dela, on affiche "HORS LIGNE"
