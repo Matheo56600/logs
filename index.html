@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Centrale Energetique — Logs en direct</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="terminal" role="main" aria-label="Logs en direct de la centrale energetique">
+
+    <div class="terminal-barre" aria-hidden="true">
+      <span class="terminal-barre-texte">CENTRALE ENERGETIQUE — LOGS EN DIRECT</span>
+    </div>
+
+    <div class="terminal-statut">
+      <span id="statut-reseau" class="statut statut-inconnu">RESEAU : CONNEXION...</span>
+      <span id="statut-sync" class="statut-sync">derniere entree : —</span>
+    </div>
+
+    <div class="terminal-corps">
+      <div id="journal" class="journal" role="log" aria-live="polite">
+        <p class="journal-ligne journal-attente">En attente des premieres donnees…</p>
+      </div>
+      <span id="curseur" class="curseur" aria-hidden="true">&#9608;</span>
+    </div>
+
+    <div class="terminal-pied">
+      <span id="pied-info">Actualisation automatique</span>
+      <span id="pied-erreur" class="pied-erreur" hidden></span>
+    </div>
+
+  </main>
+
+  <p class="note-config">
+    Source : <code id="lien-source">non configuree</code> —
+    voir <code>README.md</code> pour brancher ce site sur votre emetteur ComputerCraft.
+  </p>
+
+  <script src="script.js"></script>
+</body>
+</html>
